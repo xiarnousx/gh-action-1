@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest # define environment for the workflow to run, github provide list of runner such as ubuntu, windows, macos 
     steps:
       - name: Print Greeting # mandatory name key
-        run: echo "Hello Wordld!"
+        run: echo "Hello World!"
       - name: Saye good bye
         run: echo "Done - bye!"
       
