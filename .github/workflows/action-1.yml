@@ -1,0 +1,11 @@
+name: First Workflow
+on: workflow_dispatch # github event to manually trigger, there are other many events that trigger the workflow automatically
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest # define environment for the workflow to run, github provide list of runner such as ubuntu, windows, macos 
+    steps:
+      - name: Print Greeting # mandatory name key
+        run: echo "Hello Wordld!"
+      - name: Saye good bye
+        run: echo "Done - bye!"
+      
